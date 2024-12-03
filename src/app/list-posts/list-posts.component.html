@@ -1,0 +1,7 @@
+<h2>Listado de Posts</h2>
+
+<ul>
+  @for (post of posts; track $index) {
+    <app-item-post [post]="post"></app-item-post>
+  }
+</ul>
